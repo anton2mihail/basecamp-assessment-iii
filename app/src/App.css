@@ -1,0 +1,28 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.Navbar{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background-color:lightblue;
+    padding-top: 5px;
+    padding-bottom:5px;
+    width: 100%;
+    text-align: center;
+    transition: 0.15s opacity ease-in-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+li:hover{
+    opacity: 0.8;
+}
+p{
+    word-wrap: break-word;
+    margin-right: 2%;
+    margin-left:2%;
+}
